@@ -1,0 +1,105 @@
+@keyframes cours_div_anim{
+    from{
+        opacity: 0;
+    }
+    70%{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+#cours.cour_show > div{
+    animation: cours_div_anim 1s cubic-bezier(.7,.21,.9,.34);
+    pointer-events: all;
+    opacity: 1;
+}
+
+#cours.cour_show{
+    left: 0;
+    border-radius: 0;
+    top: 8vh;
+    height: 98vh;
+    width: 100vw;
+}
+
+#cours_close{
+    top: 10vh;
+    height: 5vh;
+    position: fixed;
+}
+#cours_close i{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh;
+    width: 5vh;
+    float: left;
+}
+#cours{
+    position: fixed;
+    top: calc(100vh - 21vw);
+    height: 25vw;
+    left: -4vw;
+    width: 25vw;
+    background-color: white;
+    border: 1px solid rgba(0,0,0, .2);
+    border-radius: 100px;
+
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    overflow: hidden;
+    transition: .7s;
+}
+#cours span{
+    padding: 0;
+    position: absolute;
+    left: 2.5vw;
+    top: calc(1vh);
+    height: 20vw;
+    width: 20vw;
+    font-weight: bold;
+    font-size: 1.3em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cours > div{
+    pointer-events: none;
+    opacity: 0;
+    position: fixed;
+    top: 8vh;
+    height: 92vh;
+    overflow-x: scroll;
+}
+#cours_ul{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+    width: 80%;
+}
+#cours_ul li{
+    width: 100%;
+}
+#posts_icon{
+    margin-bottom: -3vh;
+    width: 80%;
+    height: 12vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+#posts_icon i{
+    margin: 1vh 0 0;
+    padding: 1vh;
+    background-color: white;
+    border-radius: 100px;
+    width: 12vh;
+    height: 12vh;
+}
+#posts_icon h2{
+    width: auto;
+}

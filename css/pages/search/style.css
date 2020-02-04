@@ -1,0 +1,58 @@
+#result i{
+    margin: 3vh auto;
+    opacity: .5;
+}
+
+#result_div > h2{
+    margin: 4vh auto;
+}
+
+.post h2{
+    font-weight: lighter;
+}
+
+#search_bar{
+    border: 1px solid rgba(0,0,0,.1);
+    background-color: #f9f9f9;
+    margin-top: 10vh;
+    width: calc(100% - 4vh);
+    padding-bottom: 2vh;
+}
+
+#search_form h3{
+    width: 100%;
+    padding: 2vh;
+}
+#search_form{
+    margin: 2vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+#search_form *:not(h3){
+    background-color: transparent;
+    height: 6vh;
+    border: 1px solid rgba(0,0,0,.2);
+}
+#search_form select{
+    width: 20%;
+}
+#search_form input{
+    text-align: left;
+    padding: 0 1vh;
+    width: calc(55% - 2vh);
+    margin: 0;
+}
+#search_form button{
+    font-weight: bold;
+    width: 20%;
+}
+
+.cour h3{
+    font-size: 1.4em;
+    background-color: white !important;
+}
+.cour p{
+    background-color: #F8F9F9 !important;
+}

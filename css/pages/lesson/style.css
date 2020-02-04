@@ -1,0 +1,82 @@
+#lesson_header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#lh_title{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f6f7f7;
+    padding: 1vh 5%;
+    width: 90%;
+    margin: auto;
+}
+#lh_title h2{
+    font-size: 1.7em;
+}
+#lh_title span{
+    color: rgba(0,0,0,.6);
+}
+
+#follow_btn{
+    margin: 3vh 0;
+}
+#follow_btn button{
+    color: #f1f2f2;
+    border: 1px solid rgba(0,0,0,.2);
+    font-size: 1.2em;
+    background-color: rgb(164,164,164);
+}
+
+
+.img_profil{
+    background-position: center;
+    background-size: cover;
+    border-radius: 100px;
+    width: 10vh;
+    height: 10vh;
+}
+
+#author{
+    width: 100%;
+}
+#author h3{
+    width: 100%;
+    margin: 2vh 0;
+    font-size: 1.5em;
+}
+#author_div{
+    width: 95%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+#a_desc{
+    border-left: 1px solid rgba(0,0,0,.2);
+    min-height: 10vh;
+    width: auto;
+    margin: 0 2vh 2vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#a_desc a{
+    color: #858686;
+    font-weight: bold;
+}
+#a_profil{
+    margin-top: 0;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+#author .img_profil{
+    border: 1px solid rgba(0,0,0,.2);
+}
+
+
+
+

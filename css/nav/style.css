@@ -1,0 +1,83 @@
+nav{
+    width: 100vw;
+    position: fixed;
+    z-index: 100;
+    top: 0;
+    left: 0;
+    padding: 1vh 0;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #dfe0e0;
+}
+nav #nav_logo{
+    margin-left: 5px;
+    height: 6vh;
+    width: 4.5vh;
+}
+
+nav #nav_bar png{
+    height: 100%;
+    width: 100%;
+}
+
+nav a{
+    font-weight: bold;
+}
+#profil{
+    width: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#profil .img_profil{
+    border: 1px solid rgba(0,0,0,.2);
+    width: 8vh;
+    height: 8vh;
+    border-radius: 100px;
+    background-size: cover;
+    background-position: center;
+    margin: 0 2vh;
+}
+#profil h5{
+    margin: 0 2vh;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+nav #nav_bar{
+    margin-right: 5px;
+    width: 5vh;
+    height: 5vh;
+}
+
+nav #nav_slide{
+    background-color: #f1f2f2;
+    height: auto;
+    width: 100%;
+    z-index: 10;
+    text-align: center;
+    overflow: hidden;
+    padding: 15px 0;
+    margin-bottom: -1vh;
+}
+
+nav #nav_profil{
+    display: flex;
+    flex-direction: column;
+}
+
+nav #nav_link ul{
+    margin: 0;
+    padding: 0;
+    max-height: 92vh;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+nav #nav_link ul li{
+    margin-top: 15px;
+}

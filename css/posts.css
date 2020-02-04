@@ -1,0 +1,35 @@
+#posts{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-direction: column;
+    padding-top: 3vh;
+}
+
+.post{
+    padding-top: 2vh;
+    margin-bottom: 6vh;
+    width: 90%;
+    background-color: #F8F9F9;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.post h2{
+    width: 70%;
+}
+.post .infos{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    width: 28%;
+    color: #b0b1b1;
+    font-size: 0.8em;
+}
+.post p{
+    padding: 3vh;
+}
+

@@ -1,0 +1,38 @@
+.cour .cour_title{
+    width: 97%;
+    margin: auto;
+    background-color: #f8f9f9;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.cour h3{
+    color: rgba(0,0,0,.8);
+    background-color: transparent;
+    margin: auto;
+    width: 60%;
+}
+.cour button{
+    margin-right: 3%;
+    border: none;
+    color: #f1f2f2;
+    border: 1px solid rgba(0,0,0,.2);
+    font-size: 1.2em;
+    background-color: rgb(125, 125, 125);
+}
+.cour button.followed{
+    background-color: #f1f2f2;
+    border: 1px solid rgba(0,0,0,.2);
+    color: rgb(125, 125, 125);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1vw;
+}
+.cour button.followed i{
+    padding: 1vw 1vw;
+}
+.cour p{
+    padding: 1vh 3vh;
+    color: rgba(0,0,0,.7);
+}

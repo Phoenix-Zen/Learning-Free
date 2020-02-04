@@ -1,0 +1,25 @@
+.cour{
+    margin-bottom: 1.5vh;
+    padding-bottom: 1.5vh;
+    padding-top: 1vh;
+}
+
+.cour h3{
+    margin: 1vh auto 0;
+    width: 80%;
+    background-color: #f1f2f2;
+    padding: 2vh 8%;
+}
+.cour p:first-letter{
+    font-size: 1.3em;
+}
+.cour p{
+    width: 80%;
+    padding: 0 7% 7%;
+    border: 1px solid rgba(0,0,0,.1);
+    border-top-color: transparent;
+    text-align: justify;
+}
+.cour > h2{
+    margin: 3vh 0;
+}
